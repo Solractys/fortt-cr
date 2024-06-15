@@ -36,21 +36,6 @@ const Navbar = () => {
                         CASOS
                     </Link>
                 </li>
-                <li className={styles.dropdown}>
-                    <a href="#">MAIS</a>
-                    <ul className={styles.dropdownContent}>
-                        <li>
-                            <Link href="/item1"legacyBehavior>
-                                Item 1
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/item2"legacyBehavior>
-                                Item 2
-                            </Link>
-                        </li>
-                    </ul>
-                </li>
                 <li>
                     <a href="/contato"className={styles.contactButton}>
                         CONTATO
