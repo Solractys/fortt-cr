@@ -14,13 +14,13 @@
   flex-direction: column;
 }
 .sectionCase > .titleCases {
-  border-top: 4px solid #CFB86F;
-  border-bottom: 4px solid #CFB86F;
-  padding: 10px 40px;
+  border-top: 7px solid #CFB86F;
+  border-bottom: 7px solid #CFB86F;
+  padding: 10px 60px;
 }
 .sectionCase > div > h1 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
 }
 .sectionCase > div > img {
   transition: 0.3s;
