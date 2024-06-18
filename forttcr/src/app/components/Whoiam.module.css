@@ -1,0 +1,31 @@
+.whoaimContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Title {
+  font-size: 30px;
+  color: #CFB86F;
+  font-weight: 500;
+}
+.Subtitle{
+  width: 100%;
+  text-align: end;
+  font-weight: 200;
+  font-size: 20px;
+  color: #FFFF;
+  margin: 50px;
+}
+.buttonKnowus {
+  background: transparent;
+  border: 1px solid #FFFF;
+  border-radius: 15px;
+  font-weight: 600;
+  margin: 20px;
+  font-size: 9px;
+  color: #FFFF;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
