@@ -13,23 +13,30 @@
   justify-content: center;
   flex-direction: column;
 }
-.sectionCase > div > h1 {
-  font-weight: 600;
+.sectionCase > .titleCases {
   border-top: 4px solid #CFB86F;
   border-bottom: 4px solid #CFB86F;
-  padding: 40px 20px;
+  padding: 10px 40px;
+}
+.sectionCase > div > h1 {
+  font-weight: 400;
   font-size: 30px;
 }
 .sectionCase > div > img {
-  height: 250px;
+  transition: 0.3s;
+  height: 300px;
 }
-
+.sectionCase > div > img:hover {
+  scale: 110%;
+  transition: 0.3s;
+}
 .sectionCase > div > button {
   background-color: #D3C192;
   border: none;
   border-radius: 30px;
   font-size: small;
   padding: 6px 10px;
+  margin: 10px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
               0 1px 3px rgba(0, 0, 0, 0.08);

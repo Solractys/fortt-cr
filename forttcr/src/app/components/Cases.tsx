@@ -3,7 +3,7 @@ import styles from "./Cases.module.css";
 export default function Cases() {
   return(
     <section className={styles.sectionCase}>
-    <div>
+    <div className={styles.titleCases}>
       <h1>
         REFORMAS, APROVEITO DE <br/>
         ESPAÇO, INOVAÇÕES, <br/>
