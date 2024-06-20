@@ -1,0 +1,11 @@
+.grid_image {
+  display: grid;
+  grid-column: 2fr;
+  grid-row: auto;
+  background-color: #fff;
+  height: 100%;
+}
+.image {
+  background-image: url("../../../public/caixa.svg");
+  
+}

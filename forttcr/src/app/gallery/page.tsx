@@ -5,7 +5,18 @@ function Gallery  (){
     <>
       <Navbar/>
       {/* Daqui pra baixo é contigo pae! */}
-      <h1>Hello World!</h1>
+     <section className={styles.grid_image}>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+    <div className={styles.image}>a</div>
+     </section>
     </>
   );
 }
