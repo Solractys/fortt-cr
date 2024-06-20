@@ -26,7 +26,7 @@ import styles from './Navbar.module.css';
                     </Link>
                 </li>
                 <li>
-                    <Link href="/galeria"legacyBehavior>
+                    <Link href="/gallery"legacyBehavior>
                         GALERIA
                     </Link>
                 </li>
