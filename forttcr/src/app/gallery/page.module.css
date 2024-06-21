@@ -1,11 +1,15 @@
 .grid_image {
   display: grid;
   grid-column: 2fr;
-  grid-row: auto;
+  grid-row: 2fr;
+  row-gap: 20px;
+  column-gap: 20px;
   background-color: #fff;
   height: 100%;
 }
 .image {
   background-image: url("../../../public/caixa.svg");
-  
+  padding: 20px;
+  column-gap: 20px;
 }
+
