@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import styles from "./page.module.css";
+import Footer from "../components/Footer";
 function Gallery() {
   return (
     <>
@@ -21,6 +22,7 @@ function Gallery() {
         </div>
         <center><button className={styles.seeMore}>VEJA MAIS</button></center>
       </section>
+      <Footer/>
     </>
   );
 }
