@@ -9,7 +9,7 @@ export default function Cases() {
         ESPAÇO, INOVAÇÕES, <br/>
         DENTRE OUTROS SERVIÇOS 
         </h1>
-        <button>Conheça os casos</button>
+        <button>CONHEÇA OS CASOS</button>
     </div>
       <div>
         <img className={styles.useCaseImg} src="imgSub.png" alt="casos de uso" />
