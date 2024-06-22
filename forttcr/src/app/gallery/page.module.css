@@ -1,11 +1,27 @@
+.gallerySection{
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
 .grid_image {
   display: grid;
-  grid-column: 2fr;
-  grid-row: auto;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 5px;
   background-color: #fff;
   height: 100%;
+  padding: 50px;
 }
 .image {
   background-image: url("../../../public/caixa.svg");
-  
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.seeMore {
+  border-radius: 5px;
+  cursor: pointer;
 }
