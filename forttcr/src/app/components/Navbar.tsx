@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 
-    export default function Navbar(){
+export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
@@ -11,32 +11,32 @@ import styles from './Navbar.module.css';
             </div>
             <ul className={styles.navLinks}>
                 <li>
-                    <Link href="/"legacyBehavior>
+                    <Link href="/" legacyBehavior>
                         INÍCIO
                     </Link>
                 </li>
                 <li>
-                    <Link href="/servicos"legacyBehavior>
+                    <Link href="/servicos" legacyBehavior>
                         SERVIÇOS
                     </Link>
                 </li>
                 <li>
-                    <Link href="/quem-somos"legacyBehavior>
+                    <Link href="/quem-somos" legacyBehavior>
                         QUEM SOMOS
                     </Link>
                 </li>
                 <li>
-                    <Link href="/gallery"legacyBehavior>
+                    <Link href="/gallery" legacyBehavior>
                         GALERIA
                     </Link>
                 </li>
                 <li>
-                    <Link href="/casos"legacyBehavior>
+                    <Link href="/casos" legacyBehavior>
                         CASOS
                     </Link>
                 </li>
                 <li>
-                    <a href="/contato"className={styles.contactButton}>
+                    <a href="/contato" className={styles.contactButton}>
                         CONTATO
                     </a>
                 </li>

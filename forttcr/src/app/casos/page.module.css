@@ -1,0 +1,43 @@
+.case_section {
+  color: #CFB86F;
+  background-color: #0c0a0a;
+  font-weight: 400;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.case_section>h1 {
+  text-align: center;
+  word-spacing: 4px;
+  font-weight: 500;
+}
+
+.case_grid {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-width: 400px;
+  grid-row: auto;
+}
+
+.cases {
+  padding: 20px;
+  height: 200px;
+  margin: 20px;
+  text-align: justify;
+  width: 200px;
+  font-size: 15px;
+  border: none;
+  width: 300px;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+    0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cases:hover {
+  transition: 0.3s;
+  scale: 110%;
+}
