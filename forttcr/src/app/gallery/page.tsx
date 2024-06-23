@@ -20,7 +20,7 @@ function Gallery() {
           <div className={styles.image}></div>
           <div className={styles.image}></div>
         </div>
-        <center><button className={styles.seeMore}>VEJA MAIS</button></center>
+        <button className={styles.seeMore}>VEJA MAIS</button>
       </section>
       <Footer/>
     </>
