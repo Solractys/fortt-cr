@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Cases.module.css";
 
 export default function Cases() {

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./KnowUs.module.css";
 
 export default function KnowUs() {

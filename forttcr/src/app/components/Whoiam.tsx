@@ -1,5 +1,5 @@
+import React from "react";
 import styles from "./Whoiam.module.css";
-
 export default function Whoaim() {
   return( 
     <div className={styles.whoaimContent}>
@@ -14,6 +14,5 @@ export default function Whoaim() {
       CONHEÇA MAIS SOBRE
       </button>
     </div>
-    
   );
 }
