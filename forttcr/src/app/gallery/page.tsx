@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import styles from "./page.module.css";
 import Footer from "../components/Footer";
+import React from "react";
+
 function Gallery() {
   return (
     <>
