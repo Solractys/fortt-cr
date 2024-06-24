@@ -1,0 +1,46 @@
+.quemSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 50px;
+}
+.quemSomos > h1 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.textoEquipe {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.textoEquipe>div>p {
+    padding: 10px;
+    text-align: justify;
+    width: 300px;
+}
+
+.fundadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CFB86F;
+    gap: 150px;
+}
+
+.fundador {
+    width: 200px;
+    text-align: justify;
+}
+
+.fundador>img {
+    border-radius: 100%;
+}

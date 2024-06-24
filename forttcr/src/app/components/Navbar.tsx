@@ -22,7 +22,7 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/quem-somos" legacyBehavior>
+                    <Link href="/quemsomos" legacyBehavior>
                         QUEM SOMOS
                     </Link>
                 </li>
