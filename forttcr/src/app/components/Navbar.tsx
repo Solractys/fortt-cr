@@ -37,11 +37,11 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <a href="/contato" className={styles.contactButton}>
-                        CONTATO
-                    </a>
                 </li>
             </ul>
+            <a href="/contato" className={styles.contactButton}>
+                CONTATO
+            </a>
         </nav>
     );
 };
