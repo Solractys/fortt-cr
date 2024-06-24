@@ -12,9 +12,9 @@ export default function Footer() {
               ENTRE EM CONTATO
             </h1>
             <div className={styles.socials}>
-              <a href="#"><img src="instagramIco.svg" alt="instagram logo" /></a>
-              <a href="#"><img src="gmailIco.svg" alt="Gmail logo" /></a>
-              <a href="#"><img src="whatsIco.svg" alt="Whatsapp logo" /></a>
+              <a href="https://www.instagram.com/fortt_construcao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagramIco.svg" alt="instagram logo" /></a>
+              <a href="mailto:Geomirsantos@gmail.com"><img src="gmailIco.svg" alt="Gmail logo" /></a>
+              <a href="https://api.whatsapp.com/send/?phone=5571996281433&text&type=phone_number&app_absent=0"><img src="whatsIco.svg" alt="Whatsapp logo" /></a>
             </div>
           </div>
         </section>
