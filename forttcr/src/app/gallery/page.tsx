@@ -20,47 +20,47 @@ function Gallery() {
       <section className={styles.gallerySection}>
         <h1 className={styles.title}>GALERIA</h1>
         <div className={styles.grid_image}>
-          <Image className={styles.image}
+          <Image
             src={aplique}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={efeitopar}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={fechadura}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={pinturas}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={pisospred}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={pisosres}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={reformap}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={reformasl}
             alt="Ilustração de serviço"
             width={400}
           />
-          <Image className={styles.image}
+          <Image
             src={telhados}
             alt="Ilustração de serviço"
             width={400}
