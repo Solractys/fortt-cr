@@ -6,14 +6,14 @@
     text-align: center;
     letter-spacing: 2px;
     padding: 50px;
+    font-size: 30px;
 }
 
 .icon {
-    width: 300px;
-    height: 300px;
-    background-color: #CFB86F;
+    border: 15px solid #CFB86F;
     border-radius: 100%;
-    margin: 0 auto 20px auto;
+    padding: 0;
+    margin: 0;
 }
 
 .service {
