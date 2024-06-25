@@ -1,5 +1,4 @@
 .rodape {
-  height: 120px;
   padding: 20px 100px;
   display: flex;
   align-items: center;
@@ -21,4 +20,16 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+@media (max-width: 600px) {
+  .rodape {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .license {
+    font-size: 10px;
+  }
+  
 }
