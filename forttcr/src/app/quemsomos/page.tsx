@@ -8,6 +8,7 @@ import Circulo from "../../../public/circulo.svg";
 export default function quemSomos() {
     return (
         <>
+
             <Navbar />
             <section className={styles.quemSomos}>
                 <h1>

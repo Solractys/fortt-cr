@@ -44,3 +44,14 @@
   background-color: #CFB86F;
   transition: 0.3s;
 }
+@media (max-width: 600px) {
+    .imgbackground {
+      background-size: cover;
+    }
+    .content {
+      font-size: 30px;
+    }
+    .saibamais {
+      scale: 130%;
+    }
+}

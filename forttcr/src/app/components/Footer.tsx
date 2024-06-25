@@ -11,15 +11,15 @@ export default function Footer() {
     <>
       <footer>
         <section className={styles.rodape}>
-          <Image src={Logo} alt="logo" />
+          <Image height={80} src={Logo} alt="logo" />
           <div className={styles.contact}>
             <h1 className={styles.title}>
               ENTRE EM CONTATO
             </h1>
             <div className={styles.socials}>
-              <a href="https://www.instagram.com/fortt_construcao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><Image src={Instagram} alt="instagram logo" /></a>
-              <a href="mailto:Geomirsantos@gmail.com"><Image src={Gmail} alt="Gmail logo" /></a>
-              <a href="https://api.whatsapp.com/send/?phone=5571996281433&text&type=phone_number&app_absent=0"><Image src={Whatsapp} alt="Whatsapp logo" /></a>
+              <a href="https://www.instagram.com/fortt_construcao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><Image src={Instagram} height={20} alt="instagram logo" /></a>
+              <a href="mailto:Geomirsantos@gmail.com"><Image src={Gmail} height={20} alt="Gmail logo" /></a>
+              <a href="https://api.whatsapp.com/send/?phone=5571996281433&text&type=phone_number&app_absent=0"><Image src={Whatsapp} height={20} alt="Whatsapp logo" /></a>
             </div>
           </div>
         </section>

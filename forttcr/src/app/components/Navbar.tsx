@@ -1,15 +1,15 @@
-import Link from 'next/link';
 import React from 'react';
 import styles from './Navbar.module.css';
 import Image from 'next/image';
 import Logo from '../../../public/logo.svg'
+import Link from 'next/link';
 
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <Image src={Logo} alt="Logo" className={styles.logoImage} />
+                    <Image height={80} src={Logo} alt="Logo" className={styles.logoImage} />
                 </Link>
             </div>
             <ul className={styles.navLinks}>
