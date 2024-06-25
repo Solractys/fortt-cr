@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Cases.module.css";
+import Image from "next/image";
+import imgSub from "../../../public/imgSub.png";
 
 export default function Cases() {
   return(
@@ -13,7 +15,7 @@ export default function Cases() {
         <button>CONHEÇA OS CASOS</button>
     </div>
       <div>
-        <img className={styles.useCaseImg} src="imgSub.png" alt="casos de uso" />
+        <Image className={styles.useCaseImg} src={imgSub} alt="casos de uso" />
       </div>
     </section>
   );
