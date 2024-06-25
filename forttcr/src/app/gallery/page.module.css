@@ -2,6 +2,10 @@
   background-color: #fff;
   text-align: center;
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-size: 30px;
   letter-spacing: 4px;
 }
@@ -9,8 +13,7 @@
 .grid_image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 5px;
-  background-color: #fff;
+  gap: 30px;
   height: 100%;
   padding: 50px;
 }
