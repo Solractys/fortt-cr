@@ -34,7 +34,7 @@ function Gallery() {
         </div>
         <button className={styles.seeMore}>VEJA MAIS</button>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 }
