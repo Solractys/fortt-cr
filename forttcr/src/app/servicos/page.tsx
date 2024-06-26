@@ -22,7 +22,9 @@ function Servicos() {
                             />
                         <h2>PINTURA</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/xzjs8r">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                     <div className={styles.service}>
                             <Image className={styles.icon}
@@ -32,7 +34,9 @@ function Servicos() {
                             />
                         <h2>TELHADO</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/nurco7">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                     <div className={styles.service}>
                             <Image className={styles.icon}
@@ -42,12 +46,16 @@ function Servicos() {
                             />
                         <h2>REFORMAS</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/1dpa21">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                     <div className={styles.service}>
                         <h2>IMPERMEABILIZAÇÃO</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/xenayc">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                     <div className={styles.service}>
                             <Image className={styles.icon}
@@ -57,14 +65,21 @@ function Servicos() {
                             />
                         <h2>CONSTRUÇÃO</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/mj6w8x">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                     <div className={styles.service}>
                         <h2>GRADES</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="https://wa.link/71f6aa">
                         <button className={styles.btn}>CONTRATE AGORA!</button>
+                        </a>
                     </div>
                 </div>
+                <a href="https://wa.link/cu4erh">
+                <button className={styles.moreServices}>MAIS SERVIÇOS</button>
+                </a>
             </section>
             <Footer />
         </>

@@ -16,3 +16,92 @@
   height: 100%;
   padding: 50px;
 }
+
+.image1 {
+  background-image: url("../../../public/Aplique_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image2 {
+  background-image: url("../../../public/Efeitospar_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image3 {
+  background-image: url("../../../public/Fechaduras_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image4 {
+  background-image: url("../../../public/Pinturasr_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image5 {
+  background-image: url("../../../public/Pisosp_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image6 {
+  background-image: url("../../../public/Pisosr_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image7 {
+  background-image: url("../../../public/Reforma_pia_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image8 {
+  background-image: url("../../../public/Reformasl_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image9 {
+  background-image: url("../../../public/Telhados_etiqueta.png");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.image10 {
+  background-image: url("../../../public/caixa.svg");
+  margin: 25px auto;
+  padding: 150px;
+  width: 200px;
+}
+
+.seeMore {
+  background-color: #D3C192;
+  border: none;
+  font-weight: 600;
+  border-radius: 30px;
+  font-size: small;
+  padding: 6px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.seeMore:hover {
+  scale: 110%;
+  transition: 0.3s;
+}
