@@ -6,7 +6,7 @@ export default function MainContent() {
     <>
     <div className={styles.imgbackground}>
       <h1 className={styles.content}>
-        &quot;CONSTRUÇÃO, <br/>
+        &quot;CONSTRUÇÃO <br/>
         É A ARTE DE COMO <br/>
         GASTAR ESPAÇO.&quot;
       </h1>
