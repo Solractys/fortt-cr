@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import styles from "./BtnBack.module.css";
 import { ArrowLeft } from "lucide-react";
@@ -7,7 +8,7 @@ export function BtnBack(){
     return(
         <>
         <button className={styles.btnback}>
-            <Link className={styles.linkback} href={"/"}><ArrowLeft size={30}/></Link>
+            <Link className={styles.linkback} href={"/"} legacyBehavior><ArrowLeft size={30}/></Link>
         </button>
         </>
     );

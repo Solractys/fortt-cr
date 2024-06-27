@@ -10,7 +10,7 @@ import reforma from "../../../public/REFORMAS1.png"
 import grade from "../../../public/GRADES.png"
 import impermeabilizacao from "../../../public/IMPERMEABILIZACAO.png"
 import { BtnTop } from "../components/BtnTop";
-import { BtnBack } from "../components/Btnback";
+import { BtnBack } from "../components/BtnBack";
 function Servicos() {
     return (
         <>

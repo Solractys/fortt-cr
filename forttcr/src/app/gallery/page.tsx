@@ -13,7 +13,7 @@ import reformap from "../../../public/Reforma_pia_etiqueta.png";
 import reformasl from "../../../public/Reformasl_etiqueta.png";
 import telhados from "../../../public/Telhados_etiqueta.png";
 import { BtnTop } from "../components/BtnTop";
-import { BtnBack } from "../components/Btnback";
+import { BtnBack } from "../components/BtnBack";
 
 function Gallery() {
   return (

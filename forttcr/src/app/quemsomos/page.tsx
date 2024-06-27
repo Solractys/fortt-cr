@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Circulo from "../../../public/circulo.svg";
 import { BtnTop } from "../components/BtnTop";
-import { BtnBack } from "../components/Btnback";
+import { BtnBack } from "../components/BtnBack";
 
 export default function quemSomos() {
     return (

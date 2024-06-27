@@ -2,15 +2,15 @@ import styles from "./page.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { BtnTop } from "../components/BtnTop";
-import { BtnBack } from "../components/Btnback";
+import { BtnBack } from "../components/BtnBack";
 
 
 export default function Casos() {
   return (
     <>
       <Navbar />
-      <BtnTop/>
-        <BtnBack />
+      <BtnTop />
+      <BtnBack />
       <section className={styles.case_section}>
         <h1>CASOS</h1>
         <div className={styles.case_grid}>
