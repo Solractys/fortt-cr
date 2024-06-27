@@ -8,7 +8,7 @@ import pintura from "../../../public/PINTURAS1.png"
 import telhado from "../../../public/TELHADOS1.png"
 import reforma from "../../../public/REFORMAS1.png"
 import grade from "../../../public/GRADES.png"
-import impermeabilizacao from "../../../public/IMPERMEABILIZAÇÃO.png"
+import impermeabilizacao from "../../../public/IMPERMEABILIZACAO.png"
 function Servicos() {
     return (
         <>
