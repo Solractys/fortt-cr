@@ -42,3 +42,9 @@
   transition: 0.3s;
   scale: 110%;
 }
+@media (max-width: 800px) {
+    .case_grid {
+      grid-template-columns: 1fr;
+      
+    }
+}
