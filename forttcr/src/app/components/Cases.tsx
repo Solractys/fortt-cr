@@ -16,7 +16,7 @@ export default function Cases() {
         <Link href="/casos" className={styles.buttonCase}>CONHEÇA OS CASOS</Link>
     </div>
       <div>
-        <Image className={styles.useCaseImg} src={imgSub} alt="casos de uso" />
+        <Image width={300} className={styles.useCaseImg} src={imgSub} alt="casos de uso" />
       </div>
     </section>
   );
