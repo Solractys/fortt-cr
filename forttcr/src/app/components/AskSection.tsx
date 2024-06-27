@@ -10,13 +10,13 @@ export default function AskSection() {
           <div className={styles.faq_row}>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 1</option>
+                <option>Quanto custa para reformar?</option>
                 <option>Resposta 1</option>
               </select>
             </div>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 2</option>
+                <option>Como funciona o pagamento?</option>
                 <option>Resposta 2</option>
               </select>
             </div>
@@ -24,13 +24,13 @@ export default function AskSection() {
           <div className={styles.faq_row}>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 3</option>
+                <option>O orçamento tem custo?</option>
                 <option>Resposta 3</option>
               </select>
             </div>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 4</option>
+                <option>Vocês fornecem todos os materiais?</option>
                 <option>Resposta 4</option>
               </select>
             </div>
@@ -38,13 +38,13 @@ export default function AskSection() {
           <div className={styles.faq_row}>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 5</option>
+                <option>Vocês fazem contrato para a obra?</option>
                 <option>Resposta 5</option>
               </select>
             </div>
             <div className={styles.faq_column}>
               <select className={styles.selectAsk}>
-                <option>Pergunta 6</option>
+                <option>Visita técnica é paga?</option>
                 <option>Resposta 6</option>
               </select>
             </div>
