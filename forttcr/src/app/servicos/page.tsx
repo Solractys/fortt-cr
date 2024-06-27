@@ -7,6 +7,8 @@ import construcao from "../../../public/CONSTRUÇÃO1.png"
 import pintura from "../../../public/PINTURAS1.png"
 import telhado from "../../../public/TELHADOS1.png"
 import reforma from "../../../public/REFORMAS1.png"
+import grade from "../../../public/GRADES.png"
+import impermeabilizacao from "../../../public/IMPERMEABILIZAÇÃO.png"
 function Servicos() {
     return (
         <>
@@ -41,7 +43,7 @@ function Servicos() {
                     <div className={styles.service}>
                             <Image className={styles.icon}
                                 src={reforma}
-                                alt="Demostração de serviço"
+                                alt="Imagem onde mostra um espaço predominantemente branco com uma parede rosa ao fundo, uma prateleira com itens de Pet Shop. Na prateleira de cima, contém mochilas para transportar pets. Na segunda prateleira, contém pacotes de rações, na cor preta, para gatos. Na terceira prateleira, contém brinquedos para pets, como mordedores."
                                 width={200}
                             />
                         <h2>REFORMAS</h2>
@@ -51,6 +53,11 @@ function Servicos() {
                         </a>
                     </div>
                     <div className={styles.service}>
+                        <Image className={styles.icon}
+                            src={impermeabilizacao}
+                            alt="Imagem onde mostra o braço direito de uma pessoa usando uma blusa de manga longa cinza, luva branca, calça azul e bota preta aplicando um impermeabilizante preto em um chão cinza."
+                            width={200}
+                        />    
                         <h2>IMPERMEABILIZAÇÃO</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                         <a href="https://wa.link/xenayc">
@@ -60,7 +67,7 @@ function Servicos() {
                     <div className={styles.service}>
                             <Image className={styles.icon}
                                 src={construcao}
-                                alt="Demonstração de serviço"
+                                alt="Imagem onde mostra uma parede branca, uma área retangular no chão preenchida com cimento e uma lixeira preta ao fundo."
                                 width={200}
                             />
                         <h2>CONSTRUÇÃO</h2>
@@ -70,6 +77,11 @@ function Servicos() {
                         </a>
                     </div>
                     <div className={styles.service}>
+                        <Image className={styles.icon}
+                            src={grade}
+                            alt="Imagem onde mostra uma parede branca com uma parede branca e uma grade preta."
+                            width={200}
+                        />    
                         <h2>GRADES</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                         <a href="https://wa.link/71f6aa">
