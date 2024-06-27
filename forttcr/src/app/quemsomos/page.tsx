@@ -4,12 +4,16 @@ import Footer from "../components/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Circulo from "../../../public/circulo.svg";
+import { BtnTop } from "../components/BtnTop";
+import { BtnBack } from "../components/Btnback";
 
 export default function quemSomos() {
     return (
         <>
 
             <Navbar />
+            <BtnTop/>
+            <BtnBack />
             <section className={styles.quemSomos}>
                 <h1>
                     QUEM SOMOS

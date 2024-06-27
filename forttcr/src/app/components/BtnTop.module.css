@@ -1,0 +1,11 @@
+.btntop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 40px ;
+    background: #CFB86F;
+}

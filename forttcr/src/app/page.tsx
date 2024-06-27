@@ -6,10 +6,11 @@ import Link from "next/link";
 import KnowUs from "./components/KnowUs";
 import AskSection from "./components/AskSection";
 import Footer from "./components/Footer";
+import { BtnTop } from "./components/BtnTop";
 
 
 export default function Home() {
   return (
-    <><Navbar /><MainContent /><Cases /><Whoiam /><KnowUs /><AskSection /><Footer /></>
+    <><Navbar /><MainContent /><Cases /><Whoiam /><KnowUs /><AskSection /><Footer /> <BtnTop/> </>
   );
 };

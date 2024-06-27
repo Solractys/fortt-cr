@@ -1,0 +1,13 @@
+.btnback {
+    border: none;
+    border-radius: 100%;
+    background: #CFB86F;
+    padding: 5px 7px;
+    margin: 50px;
+    position: absolute;
+    left: 0;
+}
+.linkback {
+    color: black;
+    text-decoration: none;
+}
