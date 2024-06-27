@@ -24,7 +24,7 @@
 }
 .sectionCase > div > img {
   transition: 0.3s;
-  height: 300px;
+  height:300px;
 }
 .sectionCase > div > img:hover {
   scale: 110%;
@@ -52,6 +52,7 @@
 .buttonCase:visited {
   color: black;
 }
+
 @media (max-width: 600px) {
     .sectionCase {
       flex-direction: column;

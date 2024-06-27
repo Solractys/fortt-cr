@@ -67,9 +67,10 @@
     scale: 110%;
     transition: 0.3s;
 }
+
 @media (max-width: 680px) {
     .title {
         font-size: 25px;
-    }
-    
+    }    
 }
+
