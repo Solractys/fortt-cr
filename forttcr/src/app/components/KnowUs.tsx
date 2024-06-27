@@ -7,7 +7,7 @@ export default function KnowUs() {
     <>
       <section className={styles.sectionKnowUs}>
        <h1 className={styles.title}>CONHEÇA NOSSOS SERVIÇOS</h1>  
-       <Link href="/servicos" className={styles.knowMore}>SAIBA MAIS</Link> 
+       <Link href="/servicos" className={styles.knowMore} >SAIBA MAIS</Link> 
       </section>
     </>
   );

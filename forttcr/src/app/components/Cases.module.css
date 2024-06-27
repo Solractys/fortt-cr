@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  height: 400px;
+  gap: 80px;
+  padding: 50px;
 }
 
 .sectionCase > div {
@@ -13,7 +13,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.sectionCase > .titleCases {
+.titleCases {
   border-top: 7px solid #CFB86F;
   border-bottom: 7px solid #CFB86F;
   padding: 10px 60px;
@@ -50,4 +50,19 @@
 }
 .buttonCase:visited {
   color: black;
+}
+
+@media (max-width: 600px) {
+    .sectionCase {
+      flex-direction: column;
+    }
+    .sectionCase > .titleCases > h1 {
+      font-size: 15px;
+    }
+    .buttonCase {
+      font-size: 7px;
+    }
+    .titleCases {
+      padding: 10px 40px;
+    }
 }

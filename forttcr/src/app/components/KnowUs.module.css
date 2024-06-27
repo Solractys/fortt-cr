@@ -8,10 +8,12 @@
   flex-direction: column;
   gap: 15px;
 }
+
 .title {
   font-size: 35px;
   font-weight: 500;
 }
+
 .knowMore {
   padding: 5px 40px;
   font-size: 20px;
@@ -22,12 +24,17 @@
   border: 2px solid #000;
   border-radius: 30px;
   cursor: pointer;
+  color: black;
   transition: 0.3s;
 }
-.knowMore:visited {
-  color: black;
-}
+
 .knowMore:hover {
   scale: 110%;
   transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
 }
