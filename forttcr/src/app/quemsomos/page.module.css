@@ -44,3 +44,13 @@
 .fundador>img {
     border-radius: 100%;
 }
+
+@media (max-width: 600px) {
+    .textoEquipe {
+        flex-direction: column;
+    }
+    
+    .fundadores {
+        flex-direction: column;
+    }
+  }
