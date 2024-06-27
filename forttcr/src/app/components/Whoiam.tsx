@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./Whoiam.module.css";
 export default function Whoaim() {
   return( 
@@ -10,9 +11,9 @@ export default function Whoaim() {
       Qualidade, compromisso e agilidade.<br/>
       Valores que giram em nosso trabalho em cada projeto.
       </h2>
-      <button className={styles.buttonKnowus}>
+      <Link href="/quemsomos" className={styles.buttonKnowus}>
       CONHEÇA MAIS SOBRE
-      </button>
+      </Link>
     </div>
   );
 }

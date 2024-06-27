@@ -30,9 +30,10 @@
   scale: 110%;
   transition: 0.3s;
 }
-.sectionCase > div > button {
+.buttonCase {
   background-color: #D3C192;
   border: none;
+  text-decoration: none;
   font-weight: 600;
   border-radius: 30px;
   font-size: small;
@@ -43,8 +44,10 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
               0 2px 6px rgba(0, 0, 0, 0.08);
 }
-.sectionCase > div > button:hover {
+.buttonCase:hover {
   scale: 110%;
   transition: 0.3s;
 }
-
+.buttonCase:visited {
+  color: black;
+}
