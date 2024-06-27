@@ -21,46 +21,55 @@ function Gallery() {
         <h1 className={styles.title}>GALERIA</h1>
         <div className={styles.grid_image}>
           <Image
+            layout="responsive"
             src={aplique}
             alt="Ilustração de serviço"
-            width={400}
+            width={200}
           />
           <Image
+            layout="responsive"
             src={efeitopar}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={fechadura}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={pinturas}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={pisospred}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
             src={pisosres}
+            layout="responsive"
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={reformap}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={reformasl}
             alt="Ilustração de serviço"
             width={400}
           />
           <Image
+            layout="responsive"
             src={telhados}
             alt="Ilustração de serviço"
             width={400}
