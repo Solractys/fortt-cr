@@ -11,10 +11,10 @@
 }
 
 .icon {
-    border: 15px solid #CFB86F;
     border-radius: 100%;
-    padding: 0;
-    margin: 0;
+    outline-offset: -10px;
+    outline: 10px solid #CFB86F;
+
 }
 
 .service {
@@ -33,7 +33,7 @@
 .btn {
     color: #CFB86F;
     background-color: #fff;
-    border-color: #CFB86F;
+    border: 2px solid #CFB86F;
     border-radius: 30px;
     font-weight: 600;
     font-size: small;
@@ -66,4 +66,10 @@
 .moreServices:hover {
     scale: 110%;
     transition: 0.3s;
+}
+@media (max-width: 680px) {
+    .title {
+        font-size: 25px;
+    }
+    
 }
