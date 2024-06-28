@@ -79,7 +79,8 @@
         width: 100%;
     }
     .geomirImage {
-        height: 400px;
+        height: 350px;
+        width: 350;
     }
     .groupContainer {
         flex-direction: column;

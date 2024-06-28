@@ -30,7 +30,7 @@ export default function quemSomos() {
                             A empresa possui como meta, entregar resultados de alta qualidade à seus clientes.
                         </p>
                     </div>
-                        <Image className={styles.geomirImage} alt="Foto do Fundador" src={geomir}/>
+                        <Image layout="responsive" className={styles.geomirImage} alt="Foto do Fundador" src={geomir}/>
                 </div>
                 <div className={styles.groupContainer}>
                     <div className={styles.textContainer}>
