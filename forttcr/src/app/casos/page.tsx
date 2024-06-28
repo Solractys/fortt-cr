@@ -9,8 +9,8 @@ export default function Casos() {
   return (
     <>
       <Navbar />
-      <BtnTop />
-      <BtnBack />
+      <BtnTop/>
+        <BtnBack />
       <section className={styles.case_section}>
         <h1>CASOS</h1>
         <div className={styles.case_grid}>
