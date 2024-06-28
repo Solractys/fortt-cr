@@ -7,7 +7,7 @@ import Link from 'next/link';
 import InstagramIco from '../../../public/instagramIco.svg';
 import WhatsIco from '../../../public/whatsIco.svg';
 import GmailIco from '../../../public/gmailIco.svg';
-import { MenuIcon } from 'lucide-react';
+import { Hammer, HardHat, Hotel, House, ImageIcon, MenuIcon } from 'lucide-react';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -29,27 +29,27 @@ export default function Navbar() {
             <ul className={`${styles.navLinks} ${menuOpen ? styles.show : ''}`}>
                 <li>
                     <Link href="/" legacyBehavior>
-                        <a>INÍCIO</a>
+                        <a><House size={15} style={{marginRight: 4}}/>INÍCIO</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/servicos" legacyBehavior>
-                        <a>SERVIÇOS</a>
+                        <a><Hammer size={15} style={{marginRight: 4}}/>SERVIÇOS</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/quemsomos" legacyBehavior>
-                        <a>QUEM SOMOS</a>
+                        <a><Hotel size={15} style={{marginRight: 4}}/>QUEM SOMOS</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/gallery" legacyBehavior>
-                        <a>GALERIA</a>
+                        <a><ImageIcon size={15} style={{marginRight: 4}}/>GALERIA</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/casos" legacyBehavior>
-                        <a>CASOS</a>
+                        <a><HardHat size={15} style={{marginRight: 4}}/>CASOS</a>
                     </Link>
                 </li>
                 <li>
