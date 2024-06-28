@@ -16,7 +16,7 @@ export default function AskSection() {
     { question: 'O orçamento tem custo?', answer: 'Não cobramos pela elaboração do orçamento. Antes de enviá-lo, avaliamos a viabilidade de atender à demanda solicitada, bem como as condições técnicas e operacionais.' },
     { question: 'Vocês fornecem todos os materiais?', answer: 'O fornecimento de materiais irá variar de acordo com a obra.' },
     { question: 'Vocês fazem contrato para a obra?', answer: 'Todo e qualquer trabalho é realizado mediante contrato com assinatura física ou digital  de ambas as partes.'},
-    { question: 'Visita técnica é paga?', answer: ''},
+    { question: 'Visita técnica é paga?', answer: ' Não. As visitas técnicas não há necessidade de pagamento.'},
   ];
 
   return (

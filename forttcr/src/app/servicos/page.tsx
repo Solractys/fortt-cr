@@ -27,7 +27,7 @@ function Servicos() {
                             alt="Imagem onde mostra uma parede pintada de amarelo com uma porta posicionada à esquerda e uma janela posicionada à direita."
                         />
                         <h2>PINTURA</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Estética agradável e minimalista | Manutenção regular</p>
                         <a href="https://wa.link/xzjs8r">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
@@ -39,7 +39,7 @@ function Servicos() {
                             width={200}
                         />
                         <h2>TELHADO</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Acabamento preciso | Conforto térmico</p>
                         <a href="https://wa.link/nurco7">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
@@ -51,7 +51,7 @@ function Servicos() {
                             width={200}
                         />
                         <h2>REFORMAS</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Expansões | Estética | Alterações</p>
                         <a href="https://wa.link/1dpa21">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
@@ -63,7 +63,7 @@ function Servicos() {
                             width={200}
                         />
                         <h2>IMPERMEABILIZAÇÃO</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Proteção | Durabilidade | Resistência</p>
                         <a href="https://wa.link/xenayc">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
@@ -75,7 +75,7 @@ function Servicos() {
                             width={200}
                         />
                         <h2>CONSTRUÇÃO</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Variedades de materiais | Confecções de obras</p>
                         <a href="https://wa.link/mj6w8x">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
@@ -87,7 +87,7 @@ function Servicos() {
                             width={200}
                         />
                         <h2>GRADES</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>Proteção | Estilo arquitetônico</p>
                         <a href="https://wa.link/71f6aa">
                             <button className={styles.btn}>CONTRATE AGORA!</button>
                         </a>
