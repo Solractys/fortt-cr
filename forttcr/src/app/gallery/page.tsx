@@ -19,11 +19,16 @@ import gesso from "../../../public/Gesso.png"
 import impermeabilizacao from "../../../public/Impermeabilizacao1.png"
 import pinturaq from "../../../public/Pintura_quadra.png"
 import portao from "../../../public/Portao.png"
+import { BtnTop } from "../components/BtnTop";
+import { BtnBack } from "../components/BtnBack";
+
 
 function Gallery() {
   return (
     <>
       <Navbar />
+      <BtnTop/>
+      <BtnBack/>
       <section className={styles.gallerySection}>
         <h1 className={styles.title}>GALERIA</h1>
         <div className={styles.grid_image}>
