@@ -27,9 +27,9 @@ export default function AskSection() {
           <span>Clique na pergunta para ver a resposta</span>
           <div className={styles.gridAsk}>
             {question.map((item, index) => (
-              <div className={styles.askContainer}>
+              <div className={styles.askContainer} key={item.question}>
                 <button className={styles.selectAsk} onClick={() => toggleAsk(index)}>{item.question}</button>
-                <ul className={`${styles.answer} ${activeIndex === index ? styles.show : ''}`}>
+                <ul key={item.answer} className={`${styles.answer} ${activeIndex === index ? styles.show : ''}`}>
                   <li>{item.answer}</li>
                 </ul>
               </div>
