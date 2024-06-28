@@ -61,7 +61,7 @@ export default function Navbar() {
                             <a href="https://www.instagram.com/fortt_construcao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                 <Image src={InstagramIco} height={20} alt="Instagram logo" />
                             </a>
-                            <a href="mailto:Geomirsantos@gmail.com">
+                            <a href="mailto:forttconstrucao@hotmail.com">
                                 <Image src={GmailIco} height={20} alt="Gmail logo" />
                             </a>
                             <a href="https://api.whatsapp.com/send/?phone=5571996281433&text&type=phone_number&app_absent=0">
