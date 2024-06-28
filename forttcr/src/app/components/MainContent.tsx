@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MainContent.module.css";
+import Link from "next/link";
 
 export default function MainContent() {
   return (
@@ -10,7 +11,7 @@ export default function MainContent() {
         É A ARTE DE COMO <br/>
         GASTAR ESPAÇO.&quot;
       </h1>
-        <button className={styles.saibamais}>SAIBA MAIS</button>
+        <Link href={"/gallery"} className={styles.saibamais}>SAIBA MAIS</Link>
     </div>
     </>
   );

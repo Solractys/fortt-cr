@@ -6,51 +6,92 @@
     color: #fff;
     padding: 50px;
 }
-.quemSomos > h1 {
-    font-weight: 500;
+.groupContainer {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.textContainer {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textContainer> h1 {
+    font-weight: 300;
+    font-size: 30px;
     letter-spacing: 2px;
-    font-size: 40px;
-}
-
-.textoEquipe {
-    width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: 150px;
-}
-
-.textoEquipe>div>p {
-    padding: 10px;
-    text-align: justify;
-    width: 300px;
-}
-
-.fundadores {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #CFB86F;
-    gap: 150px;
 }
-
-.fundador {
-    width: 200px;
+.textContainer > p {
     text-align: justify;
+    margin-bottom: 50px;
 }
-
-.fundador>img {
-    border-radius: 100%;
+.btn {
+    padding: 5px 20px;
+    color: #CFB86F;
+    background: transparent;
+    border: 1px solid #CFB86F;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+.btn:hover {
+    scale: 110%;
+    transition: 0.3s;
+}
+.ceoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 100px;
+    border-bottom: 20px solid #CFB86F;
+    border-radius: 10px;
+}
+.ceoTextContainer > p {
+    font-size: 20px;
+}
+.ceoTitle {
+    text-align: center;
+}
+.ceoTitle > h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.ceoTitle > h2 {
+    background:linear-gradient(to right, #CFB86F,#CFB86F, #fffcf6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+}
+.videoContainer {
+    border: 3px dotted #CFB86F;
+}
 @media (max-width: 600px) {
-    .textoEquipe {
+    .ceoContainer {
         flex-direction: column;
+        width: 100%;
     }
-    
-    .fundadores {
+    .geomirImage {
+        height: 400px;
+    }
+    .groupContainer {
         flex-direction: column;
+        width: 100%;
+        padding: 10px;
     }
-  }
+    .textContainer > h1 {
+        font-size: 25px;
+        }
+    .textContainer {
+        width: 100%;
+        padding: 10px;
+
+    }
+}
