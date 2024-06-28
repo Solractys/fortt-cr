@@ -23,11 +23,12 @@
 }
 
 .service_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding-bottom: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .btn {
@@ -71,6 +72,10 @@
 @media (max-width: 680px) {
     .title {
         font-size: 25px;
-    }    
+    }
+    
+    .service_container {
+        grid-template-columns: 1fr;
+    }
 }
 
