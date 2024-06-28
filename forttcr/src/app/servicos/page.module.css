@@ -75,7 +75,10 @@
     }
     
     .service_container {
-        grid-template-columns: 1fr;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
