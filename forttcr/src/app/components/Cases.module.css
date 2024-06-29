@@ -53,6 +53,11 @@
   color: black;
 }
 
+.videoContainer {
+  border-style: solid;
+  border-color: #D3C192;
+}
+
 @media (max-width: 600px) {
     .sectionCase {
       flex-direction: column;
