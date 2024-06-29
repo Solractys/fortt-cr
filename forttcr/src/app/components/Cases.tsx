@@ -15,8 +15,10 @@ export default function Cases() {
         </h1>
         <Link href="/casos" className={styles.buttonCase}>CONHEÇA OS CASOS</Link>
     </div>
-      <div>
-        <Image width={300} className={styles.useCaseImg} src={imgSub} alt="casos de uso" />
+      <div className={styles.videoContainer}>
+        <video width={300} autoPlay controls loop>
+          <source src="video/videocasos.mp4" type="video/mp4"/>
+        </video>
       </div>
     </section>
   );
