@@ -8,7 +8,7 @@ export function BtnBack(){
     return(
         <>
         <button className={styles.btnback}>
-            <Link className={styles.linkback} href={"/"} legacyBehavior><ArrowLeft/></Link>
+            <Link className={styles.linkback} href={"/"} legacyBehavior><ArrowLeft style={{color: "black"}}/></Link>
         </button>
         </>
     );

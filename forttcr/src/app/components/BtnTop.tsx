@@ -31,7 +31,7 @@ export function BtnTop() {
             <button onClick={scrolltoTop}
                 className={styles.btntop}
                 style={{display: visible ? 'inline': 'none'}} >
-                <ArrowUp size={40} />
+                <ArrowUp size={40} style={{color: "black"}}/>
             </button>
         </>
     );
