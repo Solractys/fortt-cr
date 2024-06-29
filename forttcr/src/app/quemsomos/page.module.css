@@ -71,7 +71,7 @@
     margin-bottom: 60px;
 }
 .videoContainer {
-    border: 3px dotted #CFB86F;
+    border: 3px solid #CFB86F;
 }
 @media (max-width: 600px) {
     .ceoContainer {
