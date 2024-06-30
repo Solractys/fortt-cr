@@ -16,7 +16,7 @@ export default function Cases() {
         <Link href="/casos" className={styles.buttonCase}>CONHEÇA OS CASOS</Link>
     </div>
       <div className={styles.videoContainer}>
-        <video width={300} autoPlay controls loop>
+        <video width={300} autoPlay muted controls loop>
           <source src="video/videocasos.mp4" type="video/mp4"/>
         </video>
       </div>
