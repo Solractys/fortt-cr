@@ -43,7 +43,7 @@ export default function quemSomos() {
                         <Link className={styles.btn} href="https://api.whatsapp.com/send/?phone=5571996281433&text&type=phone_number&app_absent=0">CONTRATE AGORA!</Link>
                     </div>
                     <div className={styles.videoContainer}>
-                        <video width={380} height={648} controls autoPlay loop>
+                        <video width={380} height={648} controls autoPlay muted loop>
                             <source src="video/vidquemsomos.mp4" type="video/mp4"/>
                             Seu navegador não suporta a tag de video
                         </video>
