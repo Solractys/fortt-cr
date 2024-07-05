@@ -15,8 +15,8 @@ function Servicos() {
     return (
         <>
             <Navbar />
-            <BtnTop />
             <section className={styles.servicesSection}>
+            <BtnTop />
             <BtnBack />
                 <h1 className={styles.title}>CONHEÇA NOSSOS SERVIÇOS</h1>
                 <div className={styles.service_container}>

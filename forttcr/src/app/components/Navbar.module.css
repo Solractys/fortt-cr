@@ -5,6 +5,7 @@
     background-color: #12110D;
     padding:10px 20px;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .logo {
@@ -23,17 +24,21 @@
     position: relative;
 }
 
-.navLinks a {
+.navLinks .iconText {
     color: #fff;
+    cursor: pointer;
     text-decoration: none;
     padding: 10px 15px;
     transition: color 0.3s;
 }
 
-.navLinks a:hover {
+.navLinks .iconText:hover {
     color: #f0c040;
 }
-
+.iconText {
+    display: flex;
+    align-items: center;
+}
 .contactButton {
     color: #f0c040;
     font-weight: 600;

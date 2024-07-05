@@ -10,18 +10,17 @@ import { Check, Copy } from "lucide-react";
 
 export default function Footer() {
   const [isShow, setIsShow] = useState<boolean>(true);
+
   function CopyNumber(tel: string) {
     navigator.clipboard.writeText(tel);
     setIsShow(false);
   }
-  function CheckIcon(){
-    setIsShow(true);
-  }
+  
   return (
     <>
       <footer>
         <section className={styles.rodape}>
-          <Image height={80} src={Logo} alt="logo" />
+          <Image height={120} src={Logo} alt="logo" />
           <div className={styles.contact}>
             <h1 className={styles.title}>
               ENTRE EM CONTATO
@@ -36,7 +35,7 @@ export default function Footer() {
               <button className={isShow ? styles.copyBtn : styles.hide}
                 onClick={() => {
                   CopyNumber("71996281433");
-                  setTimeout(CheckIcon, 2000);
+                  setTimeout(() => {setIsShow(true)}, 2000);
                 }}>
                 <Copy color="#fff" />
               </button>

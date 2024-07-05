@@ -29,27 +29,27 @@ export default function Navbar() {
             <ul className={`${styles.navLinks} ${menuOpen ? styles.show : ''}`}>
                 <li>
                     <Link href="/" legacyBehavior>
-                        <a><House size={15} style={{marginRight: 4}}/>INÍCIO</a>
+                        <div className={styles.iconText}><House size={15} style={{marginRight: 4, paddingTop: 1}}/>INÍCIO</div>
                     </Link>
                 </li>
                 <li>
                     <Link href="/servicos" legacyBehavior>
-                        <a><Hammer size={15} style={{marginRight: 4}}/>SERVIÇOS</a>
+                        <div className={styles.iconText}><Hammer size={15} style={{marginRight: 4}}/>SERVIÇOS</div>
                     </Link>
                 </li>
                 <li>
                     <Link href="/quemsomos" legacyBehavior>
-                        <a><Hotel size={15} style={{marginRight: 4}}/>QUEM SOMOS</a>
+                        <div className={styles.iconText}><Hotel size={15} style={{marginRight: 4}}/>QUEM SOMOS</div>
                     </Link>
                 </li>
                 <li>
                     <Link href="/gallery" legacyBehavior>
-                        <a><ImageIcon size={15} style={{marginRight: 4}}/>GALERIA</a>
+                        <div className={styles.iconText}><ImageIcon size={15} style={{marginRight: 4}}/>GALERIA</div>
                     </Link>
                 </li>
                 <li>
                     <Link href="/projetos" legacyBehavior>
-                        <a><HardHat size={15} style={{marginRight: 4}}/>PROJETOS</a>
+                        <div className={styles.iconText}><HardHat size={15} style={{marginRight: 4}}/>PROJETOS</div>
                     </Link>
                 </li>
                 <li>
