@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "./Cases.module.css";
+import styles from "./Projetos.module.css";
 import Image from "next/image";
 import imgSub from "../../../public/imgSub.png";
 
@@ -13,7 +13,7 @@ export default function Cases() {
         ESPAÇO, INOVAÇÕES, <br/>
         DENTRE OUTROS SERVIÇOS 
         </h1>
-        <Link href="/casos" className={styles.buttonCase}>CONHEÇA OS CASOS</Link>
+        <Link href="/projetos" className={styles.buttonCase}>CONHEÇA OS PROJETOS</Link>
     </div>
       <div className={styles.videoContainer}>
         <video width={300} autoPlay muted controls loop>

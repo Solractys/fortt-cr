@@ -48,8 +48,8 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/casos" legacyBehavior>
-                        <a><HardHat size={15} style={{marginRight: 4}}/>CASOS</a>
+                    <Link href="/projetos" legacyBehavior>
+                        <a><HardHat size={15} style={{marginRight: 4}}/>PROJETOS</a>
                     </Link>
                 </li>
                 <li>

@@ -7,9 +7,9 @@ export default function MainContent() {
     <>
     <div className={styles.imgbackground}>
       <h1 className={styles.content}>
-        &quot;CONSTRUÇÃO <br/>
+        CONSTRUÇÃO <br/>
         É A ARTE DE COMO <br/>
-        GASTAR ESPAÇO.&quot;
+        GASTAR ESPAÇO.
       </h1>
         <Link href={"/gallery"} className={styles.saibamais}>SAIBA MAIS</Link>
     </div>

@@ -21,7 +21,41 @@
   align-items: center;
   gap: 40px;
 }
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.copyTel {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: transparent ;
+  border: transparent;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 0px 9px;
+}
+.copyBtn {
+  cursor: pointer;
+  background-color: rgb(41, 41, 41);
+  border: transparent;
+  border-radius: 10px;
+  height: fit-content;
+  text-decoration: none;
+  margin: 0 4px;
+  padding: 4px;
+  transition: 0.3s;
+}
+.hide {
+  transition: 0.3s;
+  display: none;
+}
 @media (max-width: 600px) {
+  .copyTel>p {
+    font-size: 10px;
+  }
   .rodape {
     flex-direction: column;
   }

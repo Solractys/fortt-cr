@@ -12,14 +12,14 @@ import pinturaResidencia from "../../../public/Casos/PinturaFachadaResidencia.sv
 import pinturaInterna from "../../../public/Casos/PinturaInterna.svg"
 import reformaComercial from "../../../public/Casos/ReformaComercial.svg"
 
-export default function Casos() {
+export default function Projetos() {
   return (
     <>
       <Navbar />
       <BtnTop />
       <BtnBack />
       <section className={styles.case_section}>
-        <h1>CASOS</h1>
+        <h1>PROJETOS</h1>
         <div className={styles.case_grid}>
           <div style={{
             display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"
